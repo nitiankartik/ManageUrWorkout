@@ -66,6 +66,9 @@ header a {
   border-radius: 50%;
   color: #333;
 }
+.workout-details .edit-button {
+  right: 60px;
+}
 
 /* new workout form */
 label, input {
