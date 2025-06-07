@@ -33,7 +33,6 @@ const UpdateForm = ({ workout, setIsEdit }) => {
       setIsEdit(false);
       dispatch({ type: 'UPDATE_WORKOUT', payload: json });
     }
-    window.location.reload();
   }
 
   return ( 
